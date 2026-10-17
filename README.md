@@ -13,7 +13,7 @@ ALT Security 白皮書主張，AI 讓攻擊鏈的每一段都在壓縮，防守�
 | 檔案 | 說明 |
 |---|---|
 | `index.html` | 獨立網頁，CSS／JS 內嵌，圖片為相對路徑，不依賴外部函式庫 |
-| `images/` | `zh/` 為說明圖 PNG 原檔（16:9、9:16）；`web/` 為網頁用 WebP 與預覽圖 `og_1200x675.png` |
+| `images/` | `web/zh/` 為 6 張說明圖的 WebP（依圖不同為 16:9、9:16 或 1:1）；`web/og_1200x675.png` 為預覽圖 |
 | `alt-security-offense-guide.md` | 正式導讀 Markdown |
 | `README.md` | 本檔 |
 | `share_post.md` | 社群分享文 |
