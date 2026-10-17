@@ -17,6 +17,8 @@ ALT Security 白皮書主張，AI 讓攻擊鏈的每一段都在壓縮，防守�
 | `alt-security-offense-guide.md` | 正式導讀 Markdown |
 | `README.md` | 本檔 |
 | `share_post.md` | 社群分享文 |
+| `share_line.txt` | LINE 分享文 |
+| `share_linkedin.txt` | LinkedIn 分享文 |
 | `.gitignore` | 忽略 `qa_*.png` 與 `*.normalized.md` |
 
 ## 原始素材

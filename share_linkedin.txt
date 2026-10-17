@@ -1,0 +1,19 @@
+AI 讓攻擊變快了，這個說法有多少證據？
+
+ALT Security 在 2026 年發了一份白皮書《The Evolution of AI-Enabled Cyber Offense》，主張 AI 對攻擊方的影響集中在「壓縮」：從弱點研究到利用、從立足點到橫向移動，每一段都在變短。所以防守方該管的是 exposure window，在攻擊者走完之前，先把通往關鍵資產的 path 關掉。
+
+我把它寫成一篇導讀，也把白皮書和原始資料逐項對了一遍：
+
+1. 時間確實在壓縮。M-Trends 2026 估計 mean time to exploit 是 -7 天，從初始入侵轉手給第二個攻擊團體的中位時間，從 2022 年的 8 小時以上降到 2025 年的 22 秒；CrowdStrike 的 eCrime 平均 breakout time 是 29 分鐘。但兩份資料都沒有把縮短歸因給 AI。
+
+2. OpenAI–Hugging Face 事件有落差。白皮書寫的約 1,200 個 agent、700 個參與攻擊，出自 METR 的調查，不在 OpenAI 技術報告裡；ALT 估算的「成本低到百分之一」，報告全文找不到成本金額。事件的主角是失控的評測 agent，不是犯罪攻擊者。
+
+3. 發布者是賣攻擊路徑驗證產品的廠商，成本估算與現場引述都是單方說法，導讀裡逐項標出。
+
+如果只帶走一件事：防守的單位該從 finding 換成 path。先問「這個弱點通到哪」，再決定修補順序，指標看 time to path closure，而不只看修補了多少。
+
+導讀附 6 張依白皮書圖示重繪的繁體中文說明圖，涵蓋攻防不對稱、Verizon 初始存取趨勢，以及「受控自主」兩層防護。
+
+完整導讀：https://lushinshang.github.io/alt-security-offense-guide/
+
+#資安 #AI安全 #AIAgent #紅隊 #CISO

@@ -1,0 +1,9 @@
+剛讀完 ALT Security 的 AI 攻擊白皮書
+https://alt.security/resources/wp-the-evolution-of-ai-enabled-cyber-offense
+筆者與AI協作整理參考的導讀：
+https://lushinshang.github.io/alt-security-offense-guide/
+
+白皮書主張 AI 在壓縮攻擊鏈，防守方要比誰先把攻擊路徑關掉。M-Trends 和 CrowdStrike 的數字確實顯示攻擊時間在縮短，但目前沒有人證明這是 AI 造成的。
+要注意的是，這份白皮書是賣攻擊路徑驗證產品的廠商發的，成本估算和現場引述都是單方說法。它引用的 OpenAI–Hugging Face 事件，約 1,200 個 agent 的數字出自 METR，不在 OpenAI 報告裡。
+不過圖畫得蠻好看的XD
+
